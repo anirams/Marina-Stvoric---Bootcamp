@@ -4,7 +4,8 @@ using namespace std; //da ne moramo pisat stalno std
 
 int main() { 
 	cout << "Hello World!" << endl; //izbacuje hello world, endl prebacuje u novi red 
-	cout << "this is a sentence.";
+	cout << "this is another sentece";
+	cout << 2;
 	system("PAUSE"); //zaustavi da mozemo vidjet sto smo pisali, samo VS
 	return 0; //sve je u redu
 }
