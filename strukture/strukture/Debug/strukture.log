@@ -1,0 +1,3 @@
+﻿  strukture.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\strukture\strukture\strukture.cpp(32): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  strukture.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\strukture\Debug\strukture.exe

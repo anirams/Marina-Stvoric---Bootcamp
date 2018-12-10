@@ -1,0 +1,5 @@
+﻿  miller.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\miller\miller\miller.cpp(16): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\miller\miller\miller.cpp(19): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\miller\miller\miller.cpp(23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  miller.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\miller\Debug\miller.exe

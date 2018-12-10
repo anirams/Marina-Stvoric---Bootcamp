@@ -1,0 +1,5 @@
+﻿  casinozadatak.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\casinozadatak\casinozadatak\casinozadatak.cpp(148): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\casinozadatak\casinozadatak\casinozadatak.cpp(187): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\casinozadatak\casinozadatak\casinozadatak.cpp(239): warning C4018: '<': signed/unsigned mismatch
+  casinozadatak.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\casinozadatak\Debug\casinozadatak.exe

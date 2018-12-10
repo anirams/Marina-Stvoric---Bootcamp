@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  ects.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\ects\ects\ects.cpp(19): warning C4804: '<': unsafe use of type 'bool' in operation
+  ects.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\ects\Debug\ects.exe

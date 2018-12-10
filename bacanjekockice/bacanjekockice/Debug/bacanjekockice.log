@@ -1,0 +1,3 @@
+﻿  bacanjekockice.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\bacanjekockice\bacanjekockice\bacanjekockice.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  bacanjekockice.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\bacanjekockice\Debug\bacanjekockice.exe

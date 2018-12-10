@@ -1,0 +1,3 @@
+﻿  jednorukijack.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\jednorukijack\jednorukijack\jednorukijack.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  jednorukijack.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\jednorukijack\Debug\jednorukijack.exe

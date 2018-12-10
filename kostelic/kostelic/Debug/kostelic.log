@@ -1,0 +1,4 @@
+﻿  kostelic.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\kostelic\kostelic\kostelic.cpp(15): warning C4804: '<=': unsafe use of type 'bool' in operation
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\kostelic\kostelic\kostelic.cpp(18): warning C4804: '<=': unsafe use of type 'bool' in operation
+  kostelic.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\kostelic\Debug\kostelic.exe

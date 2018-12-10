@@ -1,0 +1,3 @@
+﻿  planovi.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\planovi\planovi\planovi.cpp(17): warning C4804: '<': unsafe use of type 'bool' in operation
+  planovi.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\planovi\Debug\planovi.exe

@@ -1,0 +1,3 @@
+﻿  casino.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\casino\casino\casino.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  casino.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\casino\Debug\casino.exe
