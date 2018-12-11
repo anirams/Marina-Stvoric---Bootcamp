@@ -15,15 +15,22 @@ int main()
 	vector <string>brojeviHarry;
 	vector <string> brojeviHermiona;
 
+	cin >> harry;
+	cin.ignore();
+	cin >> hermiona;
+	cin.ignore();
+	cout << harry << hermiona;
 	for (int i = 0; i < harry; i++) {
-		string line;
+		string line="";
 		getline(cin, line);
+		cin.ignore();
 		brojeviHarry.push_back(line);
 	}
 
 	for (int i = 0; i < hermiona; i++) {
-		string line;
+		string line="";
 		getline(cin, line);
+		cin.ignore();
 		brojeviHermiona.push_back(line);
 	}
 
