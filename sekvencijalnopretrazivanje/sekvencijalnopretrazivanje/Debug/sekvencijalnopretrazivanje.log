@@ -1,0 +1,4 @@
+﻿  sekvencijalnopretrazivanje.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\sekvencijalnopretrazivanje\sekvencijalnopretrazivanje\sekvencijalnopretrazivanje.cpp(47): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\sekvencijalnopretrazivanje\sekvencijalnopretrazivanje\sekvencijalnopretrazivanje.cpp(24): warning C4101: 'y': unreferenced local variable
+  sekvencijalnopretrazivanje.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\sekvencijalnopretrazivanje\Debug\sekvencijalnopretrazivanje.exe

@@ -138,22 +138,31 @@ int jednorukiJack(string ime, int &novac, int &chipovi) {
 	char polje[4] = { '+', 'X', 'O', '*' };
 	char polje1, polje2, polje3;
 	int izbor = -1;
-		
+	srand(time(NULL));	
+
 		while (izbor != 0) {
 			if (chipovi > 0) {
 				cout << "unesite 1 za igru ili 0 za izlaz: " << endl;
 				cin >> izbor;
 				switch (izbor) {
 				case 1:
-					srand(time(NULL));
+					
 					polje1 = rand() % 4 + 1;
 					polje2 = rand() % 4 + 1;
 					polje3 = rand() % 4 + 1;
 					cout << "\t" << polje[polje1] << "\t" << polje[polje2] << "\t" << polje[polje3] << endl;
 					if (polje1 == polje2 && polje2 == polje3) {
 						chipovi += 10;
+						ofstream output;
+						output.open("jednoruki.txt", ios::out | ios::app);
+						output << ime << " je pobjednik!\n";
+						output.close();
 					}
 					else {
+						ofstream output;
+						output.open("jednoruki.txt", ios::out | ios::app);
+						output << "Racunalo je pobjednik!\n";
+						output.close();
 						chipovi--;
 					}
 					cout << ime << " vase trenutacno stanje je: " << chipovi << "chipova!" << endl;
@@ -197,17 +206,29 @@ int bacanjeKockica(string ime, int &novac, int &chipovi) {
 					cout << "Pobjednik je Racunalo: " << rukupno << endl;
 					chipovi--;
 					cout << ime << " trenutno imate: " << chipovi << " chipova!" << endl;
+					ofstream output;
+					output.open("kockice.txt", ios::out | ios::app);
+					output << "Racunalo " << rukupno << "\n";
+					output.close();
 					break;
 				}
 				else if (kukupno > rukupno) {
 					cout << "Pobjednik je " << ime << ": " << kukupno << endl;
 					chipovi++;
 					cout << ime << " trenutno imate: " << chipovi << " chipova!" << endl;
+					ofstream output;
+					output.open("kockice.txt", ios::out | ios::app);
+					output << ime << " " << kukupno << "\n";
+					output.close();
 					break;
 				}
 				else if (kukupno == rukupno) {
 					cout << "Nerijeseno!" << endl;
 					cout << ime << " trenutno imate: " << chipovi << " chipova!" << endl;
+					ofstream output;
+					output.open("kockice.txt", ios::out | ios::app);
+					output << "Nerijeseno!\n";
+					output.close();
 					break;
 				}
 				break;
@@ -222,7 +243,8 @@ int bacanjeKockica(string ime, int &novac, int &chipovi) {
 
 void duploIliNista(string ime, int &novac, int &chipovi) {
 	int brojuspilu = 0;
-	
+	int broji;
+	int brojr;
 	string boje[4] = { "pik", "karo", "tref", "herc" };
 	string karte[13] = { "2","3","4","5","6","7","8","9","10","J","Q","K","A" };
 	vector <string> spil;
@@ -238,6 +260,22 @@ void duploIliNista(string ime, int &novac, int &chipovi) {
 			brojuspilu++;
 		}
 	}
+
+	cout << "Unesite x za igru: ";
+
+	while (brojuspilu > 1) {
+		broji = rand() % brojuspilu + 1;
+		brojr = rand() % brojuspilu + 1;
+		kartaigrac = spil[broji];
+		spil.erase(spil.begin() + broji);
+		brojuspilu--;
+		kartaracunalo = spil[brojr];
+		spil.erase(spil.begin() + brojr);
+		brojuspilu--;
+	}
+
+	cout << kartaigrac;
+	cout << kartaracunalo;
 
 	/*cout << brojuspilu <<endl;
 	for (int i = 0; i < spil.size(); i++) {
