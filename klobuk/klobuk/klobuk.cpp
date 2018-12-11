@@ -4,23 +4,36 @@
 #include "pch.h"
 #include <iostream>
 #include <vector>
-
+#include <string>
 
 using namespace std;
 
 int main()
 {
-	
-	int polje[101];
-	int polje2[10] = { 0,1,2,3,4,5,6,7,8,9 };
-	vector <int> vektor;
+	int harry;
+	int hermiona;
+	vector <string>brojeviHarry;
+	vector <string> brojeviHermiona;
 
-	for (int i = 1; i <= 100; i++) {
-		polje[i] = i % 10;
+	for (int i = 0; i < harry; i++) {
+		string line;
+		getline(cin, line);
+		brojeviHarry.push_back(line);
 	}
-	for (int i = 1; i <= 100; i++) {
-		cout << polje[i];
+
+	for (int i = 0; i < hermiona; i++) {
+		string line;
+		getline(cin, line);
+		brojeviHermiona.push_back(line);
 	}
+
+	for (int i = 0; i < brojeviHarry.size(); i++) {
+		cout << brojeviHarry[i];
+	}
+	cout << endl;
+
+
+
 	return 0;
 }
 

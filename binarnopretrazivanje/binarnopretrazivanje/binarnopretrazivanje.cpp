@@ -12,18 +12,33 @@ int main()
 {
 	srand(time(NULL));
 	int randomBroj = rand() % 100 + 1;
-	int pocetak = 0;
+	int pocetak = 1;
 	int kraj = 100;
-	int sredina = (kraj - pocetak) / 2;
+	int sredina = (kraj + pocetak) / 2;
+
+	cout << randomBroj << "random broj" << endl;
 	while (pocetak <= kraj && sredina != randomBroj) {
 		if (sredina < randomBroj) {
 			pocetak = sredina + 1;
+			cout << "Trazeni broj je veci!" << endl;
 		}
 		else if (sredina > randomBroj) {
-
+			kraj = sredina - 1;	
+			cout << "Trazeni broj je manji!" << endl;
 		}
+		// treba ponovno racunat sredinuuuu!!!!!!!!!!!!!!!!!!!!!!!!
+		sredina = (kraj + pocetak) / 2;
+		cout << pocetak << endl << sredina << endl << kraj << endl;
+		system("pause");
 	}
-	cout << "Trazeni broj je: " << sredina << endl;
+
+	if (sredina == randomBroj) {
+		cout << "Pogodili ste broj: " << sredina << endl;
+	}
+	else {
+		cout << "Trazeni broj nije pogodjen!" << endl;
+	}
+	
 	return 0;
 }
 

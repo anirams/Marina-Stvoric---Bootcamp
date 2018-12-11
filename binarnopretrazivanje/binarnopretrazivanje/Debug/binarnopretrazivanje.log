@@ -1,0 +1,3 @@
+﻿  binarnopretrazivanje.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\binarnopretrazivanje\binarnopretrazivanje\binarnopretrazivanje.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\binarnopretrazivanje\binarnopretrazivanje\binarnopretrazivanje.cpp(33): error C2146: syntax error: missing ';' before identifier 'system'
