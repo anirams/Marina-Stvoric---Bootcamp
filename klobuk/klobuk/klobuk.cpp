@@ -14,29 +14,42 @@ int main()
 	int hermiona;
 	vector <string>brojeviHarry;
 	vector <string> brojeviHermiona;
+	string brojHarry;
+	string brojHermiona;
 
 	cin >> harry;
 	cin.ignore();
 	cin >> hermiona;
 	cin.ignore();
-	cout << harry << hermiona;
+	
 	for (int i = 0; i < harry; i++) {
 		string line="";
 		getline(cin, line);
-		cin.ignore();
+		
 		brojeviHarry.push_back(line);
 	}
+
 
 	for (int i = 0; i < hermiona; i++) {
 		string line="";
 		getline(cin, line);
-		cin.ignore();
+		
 		brojeviHermiona.push_back(line);
 	}
 
 	for (int i = 0; i < brojeviHarry.size(); i++) {
-		cout << brojeviHarry[i];
+		
+		cout << "HARRY: " << brojeviHarry[i] << endl;
+		to_string
 	}
+
+	for (int i = 0; i < brojeviHermiona.size(); i++) {
+
+		cout << "HERMIONA: " << brojeviHermiona[i] << endl;
+	}
+
+	
+
 	cout << endl;
 
 

@@ -1,0 +1,3 @@
+﻿  selectionsort.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\selectionsort\selectionsort\selectionsort.cpp(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  selectionsort.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\selectionsort\Debug\selectionsort.exe

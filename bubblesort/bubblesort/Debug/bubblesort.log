@@ -1,0 +1,4 @@
+﻿  bubblesort.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\bubblesort\bubblesort\bubblesort.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\bubblesort\bubblesort\bubblesort.cpp(30): warning C4018: '<': signed/unsigned mismatch
+  bubblesort.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\bubblesort\Debug\bubblesort.exe

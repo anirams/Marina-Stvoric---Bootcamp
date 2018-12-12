@@ -1,0 +1,4 @@
+﻿  opetstudenti.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\opetstudenti\opetstudenti\opetstudenti.cpp(78): warning C4018: '<': signed/unsigned mismatch
+opetstudenti.obj : error LNK2019: unresolved external symbol "void __cdecl sortiranje(void)" (?sortiranje@@YAXXZ) referenced in function _main
+C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\opetstudenti\Debug\opetstudenti.exe : fatal error LNK1120: 1 unresolved externals
