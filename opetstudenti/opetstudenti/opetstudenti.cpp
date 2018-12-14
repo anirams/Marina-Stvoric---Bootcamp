@@ -12,6 +12,13 @@ using namespace std;
 void unosStudenta();
 void ispisStudenata();
 void sortiranje();
+void sortiranjePoImenu();
+
+struct Student {
+	string ime;
+	string prezime;
+	string prosjek;
+};
 
 int main()
 {
@@ -82,7 +89,31 @@ void ispisStudenata() {
 }
 
 void sortiranje() {
-	cout << "Unesite: " << endl
+	int izbor;
+
+	do {
+		cout << "Unesite za sortiranje prema: " << endl << "1 imenu" << endl << "2 prezimenu" << endl << "3 prosjeku" << endl
+		<< "0 za povratak u prethodni izbornik" << endl;
+		cin >> izbor;
+		switch (izbor)
+		{
+		case 1:
+			sortiranjePoImenu();
+			break;
+		case 0:
+			break;
+		}
+	} while (izbor != 0);
+}
+
+void sortiranjePoImenu() {
+	vector<Student> studenti;
+	ifstream input("studenti.txt");
+	int i = 0;
+	while (!input.eof()) {
+		studenti
+	}
+		
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

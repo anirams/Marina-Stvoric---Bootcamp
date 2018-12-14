@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -12,10 +13,10 @@ int main()
 {
 	int harry;
 	int hermiona;
-	vector <string>brojeviHarry;
-	vector <string> brojeviHermiona;
-	string brojHarry;
-	string brojHermiona;
+	vector <int>brojeviHarry;
+	vector <int> brojeviHermiona;
+	int brojHarry = 0;
+	int brojHermiona = 0;
 
 	cin >> harry;
 	cin.ignore();
@@ -23,34 +24,38 @@ int main()
 	cin.ignore();
 	
 	for (int i = 0; i < harry; i++) {
-		string line="";
-		getline(cin, line);
-		
+		int line;
+		cin >> line;
 		brojeviHarry.push_back(line);
 	}
 
-
 	for (int i = 0; i < hermiona; i++) {
-		string line="";
-		getline(cin, line);
-		
+		int line;
+		cin >> line;
 		brojeviHermiona.push_back(line);
 	}
 
-	for (int i = 0; i < brojeviHarry.size(); i++) {
+	for (int i = 0; i < harry; i++) {
+		brojHarry += brojeviHarry[i] * 1 * pow(10, brojeviHarry.size() - 1 - i);
 		
-		cout << "HARRY: " << brojeviHarry[i] << endl;
-		to_string
 	}
+	cout << "HARRY:" << brojHarry << endl;
 
-	for (int i = 0; i < brojeviHermiona.size(); i++) {
+	for (int i = 0; i < hermiona; i++) {
+		brojHermiona += brojeviHermiona[i] * 1 * pow(10, brojeviHermiona.size() - 1 - i);
 
-		cout << "HERMIONA: " << brojeviHermiona[i] << endl;
 	}
+	cout << "HERMIONA:" << brojHermiona << endl;
 
-	
-
-	cout << endl;
+	if (brojHarry < brojHermiona) {
+		cout << "HERMIONA " << brojHermiona - brojHarry << endl;
+	}
+	else if (brojHarry > brojHermiona) {
+		cout << "HARRY " << brojHarry - brojHermiona << endl;
+	}
+	else {
+		cout << "JEDNAKO " << brojHarry - brojHermiona << endl;
+	}
 
 
 

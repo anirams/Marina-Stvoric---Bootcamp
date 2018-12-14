@@ -1,0 +1,4 @@
+﻿  palindrom.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\palindrom\palindrom\palindrom.cpp(19): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\palindrom\palindrom\palindrom.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  palindrom.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\palindrom\Debug\palindrom.exe

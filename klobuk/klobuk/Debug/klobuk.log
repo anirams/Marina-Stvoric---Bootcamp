@@ -1,4 +1,4 @@
 ﻿  klobuk.cpp
-c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\klobuk\klobuk\klobuk.cpp(37): warning C4018: '<': signed/unsigned mismatch
-c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\klobuk\klobuk\klobuk.cpp(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\klobuk\klobuk\klobuk.cpp(39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\klobuk\klobuk\klobuk.cpp(45): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   klobuk.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\klobuk\Debug\klobuk.exe
