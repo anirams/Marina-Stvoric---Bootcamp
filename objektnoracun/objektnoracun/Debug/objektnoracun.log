@@ -1,0 +1,8 @@
+﻿  objektnoracun.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(29): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(42): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(48): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(55): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\objektnoracun\objektnoracun\objektnoracun.cpp(62): warning C4101: 'x': unreferenced local variable
+  objektnoracun.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\objektnoracun\Debug\objektnoracun.exe

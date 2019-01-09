@@ -1,0 +1,4 @@
+﻿  dijagonale.cpp
+c:\users\uc-m12\source\repos\dijagonale\dijagonale\dijagonale.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\source\repos\dijagonale\dijagonale\dijagonale.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  dijagonale.vcxproj -> C:\Users\UC-M12\source\repos\dijagonale\Debug\dijagonale.exe
