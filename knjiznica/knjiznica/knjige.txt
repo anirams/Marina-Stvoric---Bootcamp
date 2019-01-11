@@ -1,0 +1,15 @@
+123456 
+George 
+Orwell 
+1984 knjiga
+1
+789456 
+Ernest 
+Hemmingway 
+Starac i more
+0
+123456 
+ime 
+prezime
+ovo je naziv
+0

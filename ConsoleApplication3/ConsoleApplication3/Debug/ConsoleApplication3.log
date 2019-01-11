@@ -1,0 +1,8 @@
+﻿  ConsoleApplication3.cpp
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(169): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(205): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(214): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(244): warning C4018: '<': signed/unsigned mismatch
+c:\users\uc-m12\documents\marina stvoric\marina-stvoric---bootcamp\consoleapplication3\consoleapplication3\consoleapplication3.cpp(266): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication3.vcxproj -> C:\Users\UC-M12\Documents\Marina Stvoric\Marina-Stvoric---Bootcamp\ConsoleApplication3\Debug\ConsoleApplication3.exe
